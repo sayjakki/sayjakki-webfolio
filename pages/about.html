@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>About</title>
+  <!-- CSS 연결 -->
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <!-- Font Load -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- ✅ Fitty 플러그인 (그대로 유지) -->
+  <script src="https://cdn.jsdelivr.net/npm/fitty@2.3.6/dist/fitty.min.js"></script>
+</head>
+
+<body>
+  <!-- [4] HEADER: 네비게이션 + 로고 + 햄버거 메뉴 -->
+  <div class="site-header-bar" id="siteHeaderBar">
+    <div class="site-header-inner">
+      <div class="site-header-content">
+        <a class="site-header-logo-link" href="../index.html" id="mainLogoText" style="position:relative; z-index:10; display:block;">
+          Branding &amp; Design Studio
+        </a>
+        <div class="site-header-links">
+          <div class="site-header-link-item">
+            <p class="site-header-link-text">
+              <a class="site-header-link" href="about.html">About</a>
+            </p>
+          </div>
+          <div class="site-header-link-item">
+            <p class="site-header-link-text">
+              <a class="site-header-link" href="https://www.instagram.com/sayjakki/" target="_blank" rel="noopener">Insta</a>
+            </p>
+          </div>
+          <div class="site-header-link-item">
+            <p class="site-header-link-text">
+              <a class="site-header-link" href="mailto:info@workbytomorrow.com" target="_blank" rel="noopener">Let's Talk</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span class="invisible"></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+  
+  <div class="overlay-nav" id="overlayNav">
+    <div class="overlay-header">
+      <a href="/" class="logo white-logo">Tomorrow</a>
+        <button class="hamburger open" id="hamburgerClose">
+          <span></span>
+          <span class="invisible"></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="overlay-menu">
+        <a href="pages/about.html">About</a>
+        <a href="https://www.instagram.com/sayjakki/">Insta</a>
+        <a href="#contact">Let’s Talk</a>
+      </nav>
+
+      <div class="overlay-footer">
+        <div>© 2024</div>
+        <div>Branding & Design Studio</div>
+      </div>
+    </div>
+
+
+  <!-- Hero Marquee -->
+  <section class="hero-marquee-wrapper">
+    <div class="hero-marquee-track">
+      <span class="fade-in-word delay-1">About</span>&nbsp;
+      <span class="fade-in-word delay-2">Jakki</span>&nbsp;&nbsp;&nbsp;
+
+    <!-- 이후 반복되는 marquee 텍스트는 일반 span으로 -->
+      <span>Main Election&nbsp;&nbsp;&nbsp;</span>
+      <span>Main Election&nbsp;&nbsp;&nbsp;</span>
+    </div>
+  </section>
+
+  <!-- Project Content -->
+  <section class="about-content-section" name="Content">
+    <div class="about-content-img-wrap">
+      <img src="../assets/img/about/A1.png" alt="Tomorrow Illustration" class="about-content-img" sizes="calc(max((100vw - 260px) / 12, 20px) * 5 + 80px)" />
+      <!-- <div class="about-content-img-caption">이미지 아래에 들어갈 텍스트를 여기에 작성하세요.</div> -->
+    </div>
+    <div class="about-block"></div>
+    <div class="about-content-text">
+      <h2 class="about-content-title">A designer who turns clarity into impact</h2>
+      <p class="about-content-desc">
+      강렬하면서도 직관적인 비주얼로 브랜드 메시지를 명확하게 전달하는 디자이너 김재윤입니다.  <br> <br> 
+
+      Photoshop, Illustrator, After Effects, Cinema4D, 그리고 Midjourney와
+      GPT까지—툴의 경계를 넘나들며 2D, 모션, 3D, AI 그래픽을 유기적으로 활용합니다.
+
+      앱과 웹, 온보딩부터 카드뉴스, 대형 화면 콘텐츠까지 다양한 플랫폼에 최적화된 디자인 경험을 보유하고 있으며,  
+      기획자, 마케터, 개발자와의 협업에도 익숙합니다. <br> <br> 
+
+      무엇보다 새로운 도구와 트렌드에 늘 열려 있고, 빠르게 흡수해 실제 작업에 적용하는 데 강점이 있습니다.
+
+      변화에 민감하고, 결과에 집요하며, 함께 일하기 편한 디자이너. 
+      저는 그런 디자이너입니다.
+      </p>
+    </div>
+  </section>
+
+  <section class="about-posts-section">
+    <div class="about-posts-block">
+
+    </div>
+    <div class="about-posts">
+      <div class="about-class-warp">
+        <div class="about-class-table">
+          <div class="about-class">
+            <p class="about-class-a">Expertise</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-posts-list">
+        <div class="about-posts-list1">
+          <ul class="about-services-list">
+            <li>2D Design</li>
+            <li>Motion & 3D</li>  
+            <li>AI & Creative Automation</li>  
+          </ul>
+        </div>
+        
+        <div class="about-posts-list2">
+          <ul class="about-services-list">
+            <li>Photoshop, Illustrator</li>
+            <li>After Effects, Cinema 4D</li>
+            <li>Midjourney, Kling, GPT</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- [8] FOOTER: 하단 정보 영역 -->
+  <footer class="site-footer">
+    <section class="footer-hero">
+      <h1 class="footer-title">Tomorrow</h1>
+    </section>
+
+    <div class="footer-info">
+      <div class="footer-left">© 2025</div>
+      <div class="footer-right">
+          <a href="pages/about.html">About</a>
+        <a href="https://www.instagram.com/sayjakki/">Insta</a>
+        <a href="mailto:cominyoonk@gmail.com">Let’s Talk</a>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="../js/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>project1</title>
+  <!-- CSS 연결 -->
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <!-- Font Load -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- ✅ Fitty 플러그인 (그대로 유지) -->
+  <script src="https://cdn.jsdelivr.net/npm/fitty@2.3.6/dist/fitty.min.js"></script>
+</head>
+
+<body>
+  <!-- [4] HEADER: 네비게이션 + 로고 + 햄버거 메뉴 -->
+  <div class="site-header-bar" id="siteHeaderBar">
+    <div class="site-header-inner">
+      <div class="site-header-content">
+        <a class="site-header-logo-link" href="../index.html" id="mainLogoText" style="position:relative; z-index:10; display:block;">
+          Sayjakki
+        </a>
+        <div class="site-header-links">
+          <div class="site-header-link-item">
+            <p class="site-header-link-text">
+              <a class="site-header-link" href="about.html">About</a>
+            </p>
+          </div>
+          <div class="site-header-link-item">
+            <p class="site-header-link-text">
+              <a class="site-header-link" href="https://www.instagram.com/sayjakki/" target="_blank" rel="noopener">Insta</a>
+            </p>
+          </div>
+          <div class="site-header-link-item">
+            <p class="site-header-link-text">
+              <a class="site-header-link" href="mailto:info@workbytomorrow.com" target="_blank" rel="noopener">Let's Talk</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span class="invisible"></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+  
+  <div class="overlay-nav" id="overlayNav">
+    <div class="overlay-header">
+      <a href="/" class="logo white-logo">Tomorrow</a>
+        <button class="hamburger open" id="hamburgerClose">
+          <span></span>
+          <span class="invisible"></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="overlay-menu">
+        <a href="pages/about.html">About</a>
+        <a href="https://www.instagram.com/sayjakki/">Insta</a>
+        <a href="#contact">Let’s Talk</a>
+      </nav>
+
+      <div class="overlay-footer">
+        <div>© 2024</div>
+        <div>Branding & Design Studio</div>
+      </div>
+    </div>
+
+
+  <!-- Hero Marquee -->
+  <section class="hero-marquee-wrapper">
+    <div class="hero-marquee-track">
+      <span class="fade-in-word delay-1">News <Data></Data></span>&nbsp;
+      <span class="fade-in-word delay-2">Visualization</span>&nbsp;&nbsp;&nbsp;
+
+    <!-- 이후 반복되는 marquee 텍스트는 일반 span으로 -->
+      <span>News Data Visualization&nbsp;&nbsp;&nbsp;</span>
+      <span>News Data Visualization&nbsp;&nbsp;&nbsp;</span>
+    </div>
+  </section>
+
+  <!-- Project Content -->
+  <div class="project-detail-container">
+        <!-- ✅ sticky 텍스트 영역 -->
+        <div class="project-info">
+          <div class="project-meta">
+           <!-- <div class="meta-item">
+               <strong>Client</strong>
+              <span class="meta-text">YonhapNewsTV</span>
+            </div>
+            <div class="meta-item">
+              <strong>Year</strong>
+              <span class="meta-text">2019-</span> 
+            </div> -->
+          </div>
+          <div class="meta-item">
+            <strong>뉴스 데이터를 명확하고 몰입감 있게</strong> <br>
+            <span class="meta-text">연합뉴스TV의 데일리 뉴스 콘텐츠에서 시청자에게 데이터를 효과적으로 전달하기 위해,  
+              방송용 CG 인포그래픽의 시각 정보 구조와 디자인을 기획·제작했습니다. <br><br>
+              
+              정치, 경제, 사회, 문화, 스포츠 등 다양한 통계 기반 이슈에 맞춰  
+              정보의 우선순위를 고려한 그래픽 구성과 컬러 코딩, 데이터 중심 레이아웃을 적용하여  
+              시청자의 이해도를 높이고 뉴스 콘텐츠의 몰입감을 강화했으며,  
+              방송 환경에 최적화된 시각 흐름과 해상도 기준을 반영해 전달력을 극대화했습니다. <br><br>
+
+              데이터를 뉴스 흐름 속에 자연스럽게 녹여내며,  
+              정확한 정보 전달과 시각적 신뢰감을 동시에 설계한 방송 CG 프로젝트입니다.</span>
+          </div>
+        </div>
+
+        <!-- ✅ 스크롤 가능한 이미지 영역 -->
+        <div class="project-image">
+          <img src="../assets/img/project2/P2-1.png" alt="Main Election" sizes="calc(100vw - 40px)" />
+          <img src="../assets/img/project2/P2-2.png" alt="Main Election" sizes="calc(100vw - 40px)" />
+          <img src="../assets/img/project2/P2-3.png" alt="Main Election" sizes="calc(100vw - 40px)" />
+          <img src="../assets/img/project2/P2-4.png" alt="Main Election" sizes="calc(100vw - 40px)" />
+          <img src="../assets/img/project2/P2-5.png" alt="Main Election" sizes="calc(100vw - 40px)" />
+          <img src="../assets/img/project2/P2-6.png" alt="Main Election" sizes="calc(100vw - 40px)" />
+        </div>
+          <!-- ✅ 영상넣을때 사용하슈
+          <video
+            src="../assets/img/green-party-tomorrow.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+            style="width: 100%; height: auto; display: block; object-fit: cover;">
+            Your browser does not support the video tag.
+          </video> -->
+    </div>
+
+  <!-- ✅ Featured Projects 전체 섹션 -->
+  <section class="featured-projects">
+
+    <!-- ✅ 제목과 'All Projects' 링크를 담는 상단 영역 -->
+    <div class="featured-header">
+      <h2>Featured Projects</h2>
+      <a href="/index.html" class="all-projects-link">All Projects</a>
+    </div>
+
+    <!-- ✅ 프로젝트 썸네일 3개를 보여주는 그리드 영역 -->
+
+  <div class="featured-grid">
+      <a href="project1.html" class="featured-item-wrap">
+        <div class="featured-item yellow">
+          <img src="../assets/img/main/P1.png" alt="Main Election" sizes="calc(100vw - 40px)" />
+        </div>
+        <div class="featured-title">News Data Visualization</div>
+      </a>
+
+      <a href="project3.html" class="featured-item-wrap">
+        <div class="feat ured-item pink">
+          <img src="../assets/img/main/P3.png" alt="Main Election" sizes="calc(100vw - 40px)" />
+        </div>
+        <div class="featured-title">Election Promotion</div>
+      </a>
+
+      <a href="project4.html" class="featured-item-wrap">
+       <div class="featured-item green">
+          <img src="../assets/img/main/P4.png" alt="Main Election" sizes="calc(100vw - 40px)" />
+       </div>
+      <div class="featured-title">Inside Program Opening Title</div>
+       </a>
+    </div>
+  </section>
+
+
+  <footer class="site-footer">
+    <section class="footer-hero">
+      <h1 class="footer-title">Tomorrow</h1>
+    </section>
+
+    <div class="footer-info">
+      <div class="footer-left">© 2025</div>
+      <div class="footer-right">
+       <a href="about.html">About</a>
+        <a href="https://www.instagram.com/sayjakki/">Insta</a>
+        <a href="mailto:cominyoonk@gmail.com">Let’s Talk</a>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="../js/script.js" defer></script>
+</body>
+</html>
